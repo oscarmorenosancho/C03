@@ -33,10 +33,10 @@ char	*ft_strstr(char *str, char *to_find)
 	{
 		if (str[i]  == to_find[matches_count])
 			matches_count++;
-		else
-			matches_count = 0;
-		if (str[i]  == to_find[matches_count])
-			matches_count++;
+		else{
+			i -= matches_count;
+			matches_count = 0;		
+		}
 		i++;
 	}
 	if (matches_count == to_find_len) 
