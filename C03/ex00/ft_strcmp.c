@@ -6,7 +6,7 @@
 /*   By: omoreno- <omoreno-@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/23 08:35:50 by omoreno-          #+#    #+#             */
-/*   Updated: 2022/08/23 11:24:25 by omoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/24 16:01:56 by omoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int	ft_strcmp(char *s1, char *s2)
 
 	result = 0;
 	i = 0;
-	while (s1[i] && s2[i] && result != 0)
+	while (s1[i] && s2[i] && result == 0)
 	{
 		if (s1[i] > s2[i])
 			result = 1;

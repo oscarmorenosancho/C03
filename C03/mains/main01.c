@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main01.c                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: omoreno- <omoreno-@student.42barcel>       +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/08/24 15:40:51 by omoreno-          #+#    #+#             */
+/*   Updated: 2022/08/24 17:15:07 by omoreno-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
@@ -30,13 +42,13 @@ int main(int argc, char **argv)
             sn = 0;
         n = (unsigned int) sn;
     }
-    printf("--- datos previos a la ejecución de ft_strncmp y strncmp ---")
+    printf("--- datos previos a la ejecución de ft_strncmp y strncmp ---\n");
     printf("s1: %s\n", ps1);
     printf("s2: %s\n", ps2);
-    printf("longitud a compararar: %u", n);
+    printf("longitud a compararar: %u\n", n);
     res = ft_strncmp(ps1, ps2, n);
     res2 = strncmp(ps1, ps2, n);
-    printf("--- tras la ejecución de ft_strncmp y strncmp ---")
+    printf("--- tras la ejecución de ft_strncmp y strncmp ---\n");
     printf("restultado ft_strncmp: %d\n", res);
     printf("restultado strncmp: %d\n", res2);
 }
