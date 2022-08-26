@@ -6,7 +6,7 @@
 /*   By: omoreno- <omoreno-@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/24 15:44:23 by omoreno-          #+#    #+#             */
-/*   Updated: 2022/08/24 15:50:33 by omoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/26 13:48:28 by omoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,4 +42,5 @@ int main(int argc, char **argv)
     printf("--- tras la ejecución de ft_strcmp y strcmp ---\n");
     printf("restultado ft_strcmp: %d\n", res);
     printf("restultado strcmp: %d\n", res2);
+	return (0);
 }
